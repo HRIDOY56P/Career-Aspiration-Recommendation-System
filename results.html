@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations Result</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Top Career Recommendations</h2>
+        <ul class="list-group">
+            {% for rec in recommendations %}
+                <li class="list-group-item">{{ rec[0] }} — Probability: {{ rec[1] }}</li>
+            {% endfor %}
+        </ul>
+        <a class="btn btn-primary mt-4" href="home.html">Back to Home</a>
+    </div>
+</body>
+</html>

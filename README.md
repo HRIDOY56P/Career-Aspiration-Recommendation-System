@@ -1,26 +1,46 @@
-# Career-Aspiration-Recommendation-System
-This project is an intelligent web-based application that predicts suitable career paths for users based on their responses to a set of psychological and interest-based questions. Using a machine learning model, it evaluates user inputs and recommends top career options along with their associated probability scores.
-✨ Key Features:
+# Note Please:
+Before using any other file you have to run the Studend recommendation notebook to get model.pkl and scaler.pkl.
 
-🔍 Career Prediction based on user preferences and psychology
+# Dataset Description:
 
-📊 Probability Scores to show confidence level for each recommendation
+download link:: https://www.kaggle.com/datasets/noorsaeed/student-studeis-recommendation
 
-🎯 Interactive Results: Click on any career label to reveal recommended skill sets tailored to that profession
+This dataset contains information about students enrolled in an academy, including their personal details, academic scores, extracurricular activities, and career aspirations.
 
-🧠 Careers Covered: Doctor, Lawyer, Pharmacist/Biotechnologist, Engineer, Nursing (more can be added)
+Features Information: 
 
-🧱 Built with Flask, Bootstrap, and Jinja2 templating
+id: Unique identifier for each student.
 
-💡 Technologies Used:
+first_name: First name of the student.
 
-Python (Flask)
+last_name: Last name of the student.
 
-HTML5/CSS3 with Bootstrap 4
+email: Email address of the student.
 
-Machine Learning (Scikit-learn or custom model)
+gender: Gender of the student (male/female).
 
-Jinja2 for dynamic templating
+part_time_job: Indicates whether the student has a part-time job (True/False).
 
-🚀 Use Case:
-Perfect for high school or college students seeking career guidance, academic counselors, or any platform aiming to offer intelligent career suggestion tools.
+absence_days: Number of days the student has been absent.
+
+extracurricular_activities: Indicates whether the student participates in extracurricular activities (True/False).
+
+weekly_self_study_hours: Number of hours the student spends on self-study per week.
+
+Note:
+Before using this dataset for any analysis or machine learning projects, it's essential to preprocess the data, handle missing values, encode categorical variables, and split the data into training and testing sets appropriately. Additionally, ensure compliance with any privacy or ethical considerations when working with personal data such as email addresses.
+
+career_aspiration: Aspirational career path of the student.
+
+math_score: Score achieved by the student in mathematics.
+
+history_score: Score achieved by the student in history.
+
+physics_score: Score achieved by the student in physics.
+
+chemistry_score: Score achieved by the student in chemistry.
+
+biology_score: Score achieved by the student in biology.
+
+english_score: Score achieved by the student in English.
+geography_score: Score achieved by the student in geography.
